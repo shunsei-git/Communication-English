@@ -1,6 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+'''
+1年分の選手データを読み込むプログラム．
+'''
+
 # path
 year = input('year: ')
 batting_path = f'./excel/batting_{year}.xlsx'
