@@ -4,7 +4,7 @@ import re
 
 # list
 all_dh_data = []
-years = [year for year in range(2000, 2025) if year != 2020]
+years = [year for year in range(1950, 2025) if year != 2020]
 
 for year in years:
     # path
@@ -38,5 +38,5 @@ ohtani_data = all_dh_data_sort[
 print(ohtani_data)
 
 # save
-all_dh_data_sort.to_excel('batting_dh_2000_2024.xlsx', index=False)
+all_dh_data_sort.to_excel('batting_dh_1950_2024.xlsx', index=False)
 ohtani_data.to_excel('batting_ohtani.xlsx', index=False)
